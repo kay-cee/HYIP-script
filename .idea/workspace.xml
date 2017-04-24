@@ -47,8 +47,8 @@
       <file leaf-file-name="Admin-Dashboard.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dashboard/Admin-Dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1197">
-              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="95">
+              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
               <folding>
                 <element signature="n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -152,10 +152,10 @@
         <option value="$PROJECT_DIR$/Landing/index.html" />
         <option value="$PROJECT_DIR$/Dashboard/dashboard.html" />
         <option value="$PROJECT_DIR$/Dashboard/earnings.html" />
-        <option value="$PROJECT_DIR$/Dashboard/Admin-Dashboard.html" />
         <option value="$PROJECT_DIR$/Dashboard/Admin-MergeView.html" />
         <option value="$PROJECT_DIR$/Dashboard/Admin-PView.html" />
         <option value="$PROJECT_DIR$/Landing/login.html" />
+        <option value="$PROJECT_DIR$/Dashboard/Admin-Dashboard.html" />
       </list>
     </option>
   </component>
@@ -324,12 +324,12 @@
       <workItem from="1492253390892" duration="6557000" />
       <workItem from="1492990037402" duration="114000" />
       <workItem from="1492974470108" duration="19215000" />
-      <workItem from="1493069850622" duration="131000" />
+      <workItem from="1493069850622" duration="807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98707000" />
+    <option name="totallyTimeSpent" value="99383000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -621,8 +621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dashboard/Admin-Dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="95">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
           <folding>
             <element signature="n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
