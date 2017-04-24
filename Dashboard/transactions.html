@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Transactions</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet'>
+    <link href='src/vendor/normalize.css/normalize.css' rel='stylesheet'>
+    <link href='src/vendor/fontawesome/css/font-awesome.min.css' rel='stylesheet'>
+    <link href="dist/vertical-responsive-menu.min.css" rel="stylesheet">
+    <link href="dist/demo.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="dist/mastyle.css">
+
+
+    <!-- bootstrap CDN -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<header class="header clearfix">
+    <button type="button" id="toggleMenu" class="toggle_menu">
+        <i class="fa fa-bars"></i>
+    </button>
+    <a href="dashboard.html"><h1>Transactions</h1></a>
+</header>
+
+<nav class="vertical_nav">
+
+    <ul id="js-menu" class="menu">
+        <li class="menu--item">
+            <a href="dashboard.html" class="menu--link" title="Dashboard">
+                <i class="menu--icon  fa fa-fw fa-briefcase"></i>
+                <span class="menu--label">Dashboard</span>
+            </a>
+        </li>
+
+        <li class="menu--item  menu--item__has_sub_menu">
+
+            <label class="menu--link" title="Item 1">
+                <i class="menu--icon  fa fa-fw fa-user"></i>
+                <span class="menu--label">Account</span>
+            </label>
+
+            <ul class="sub_menu">
+                <li class="sub_menu--item">
+                    <a href="profile.html" target="_blank" class="sub_menu--link sub_menu--link__active">Profile
+                        Management</a>
+                <li class="sub_menu--item">
+                    <a href="passwordreset.html" class="sub_menu--link" title="Edit Password">Change Password</a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="menu--item">
+            <a href="earnings.html" class="menu--link" title="Earnings">
+                <i class="menu--icon  fa fa-fw fa-briefcase"></i>
+                <span class="menu--label">Earnings</span>
+            </a>
+        </li>
+
+        <li class="menu--item">
+            <a href="transactions.html" class="menu--link menu--link--active" title="Transactions">
+                <i class="menu--icon  fa fa-fw fa-cog"></i>
+                <span class="menu--label">Transactions</span>
+            </a>
+        </li>
+
+        <li class="menu--item">
+            <a href="referrals.html" class="menu--link" title="Referrals">
+                <i class="menu--icon  fa fa-fw fa-cog"></i>
+                <span class="menu--label">Referrals</span>
+            </a>
+        </li>
+
+        <li class="menu--item">
+            <a href="#" class="menu--link" title="Testimonies">
+                <i class="menu--icon  fa fa-fw fa-globe"></i>
+                <span class="menu--label">Testimonies</span>
+            </a>
+        </li>
+
+        <li class="menu--item">
+            <a href="#" class="menu--link" title="Support">
+                <i class="menu--icon  fa fa-fw fa-globe"></i>
+                <span class="menu--label">Support</span>
+            </a>
+        </li>
+
+        <li class="menu--item">
+            <a href="signin.html" class="menu--link" title="Log out">
+                <i class="menu--icon  fa fa-fw fa-globe"></i>
+                <span class="menu--label">Log Out</span>
+            </a>
+        </li>
+
+    </ul>
+
+    <button id="collapse_menu" class="collapse_menu">
+        <i class="collapse_menu--icon  fa fa-fw"></i>
+        <span class="collapse_menu--label">Collapse Menu</span>
+    </button>
+
+</nav>
+
+
+<div class="wrapper">
+    <section>
+        <div class="card">
+            <div class="card-block">
+                <!--dummy message-->
+                <div class="Account-info">
+                    <p class="performed-action">
+                        You confirmed a payment of $
+                    </p>
+                    <p><b>Bank: </b></p>
+                    <p><b>Acc Name: </b></p>
+                    <p><b>Acc No: </b></p>
+                </div>
+                <div class="transaction-details">
+                    <p class="status">
+                        <script type="text/javascript">
+                            var action;
+                            if (action = true) {
+                                document.write("Completed")
+                            }
+                            else if (action) {
+                                document.write("pending")
+                            }
+                            else {
+                                document.write("Failed")
+                            }
+
+                        </script>
+                    </p>
+                    <p class="date-created"><b>Created on: </b></p>
+                    <p class="time-created"><b>Date: </b></p>
+                    <p><a href="details-page"></a></p>
+                </div>
+                <!--/dummy message-->
+            </div>
+        </div>
+
+    </section>
+</div>
+
+<script src="dist/vertical-responsive-menu.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- SCRIPTS -->
+
+<!-- JQuery -->
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/tether.min.js"></script>
+
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+
+</body>
+</html>

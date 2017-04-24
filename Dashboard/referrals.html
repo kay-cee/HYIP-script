@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Referrals</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet'>
+    <link href='src/vendor/normalize.css/normalize.css' rel='stylesheet'>
+    <link href='src/vendor/fontawesome/css/font-awesome.min.css' rel='stylesheet'>
+    <link href="dist/vertical-responsive-menu.min.css" rel="stylesheet">
+    <link href="dist/demo.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="dist/mastyle.css">
+
+
+    <!-- bootstrap CDN -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Mdbootstrap CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.2.0/css/mdb.min.css" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+<header class="header clearfix">
+    <button type="button" id="toggleMenu" class="toggle_menu">
+        <i class="fa fa-bars"></i>
+    </button>
+    <a href="dashboard.html"><h1>AidEmbassy</h1></a>
+
+</header>
+
+<nav class="vertical_nav">
+
+    <ul id="js-menu" class="menu">
+
+        <!--<li>-->
+        <!--<div class="logo-wrapper sn-ad-avatar-wrapper rgba-stylish-strong">-->
+        <!--<img src="img/Kc%20campaign2.png" class="img-fluid rounded-circle img-resize">-->
+        <!--<div class="">-->
+        <!--<p class="user white-text">Admin<br> admin@gmail.com-->
+        <!--</p>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</li>-->
+
+        <li class="menu--item">
+            <a href="dashboard.html" class="menu--link menu--link--active" title="Dashboard">
+                <i class="menu--icon  fa fa-fw fa-briefcase"></i>
+                <span class="menu--label">Dashboard</span>
+            </a>
+        </li>
+
+        <li class="menu--item  menu--item__has_sub_menu">
+
+            <label class="menu--link" title="Item 1">
+                <i class="menu--icon  fa fa-fw fa-user"></i>
+                <span class="menu--label">Account</span>
+            </label>
+
+            <ul class="sub_menu">
+                <li class="sub_menu--item">
+                    <a href="profile.html" target="_blank" class="sub_menu--link sub_menu--link__active">Profile Management</a>
+                <li class="sub_menu--item">
+                    <a href="passwordreset.html" class="sub_menu--link" title="Edit Password">Change Password</a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="menu--item">
+            <a href="earnings.html" class="menu--link" title="Earnings">
+                <i class="menu--icon  fa fa-fw fa-briefcase"></i>
+                <span class="menu--label">Earnings</span>
+            </a>
+        </li>
+
+        <li class="menu--item">
+            <a href="transactions.html" class="menu--link" title="Transactions">
+                <i class="menu--icon  fa fa-fw fa-cog"></i>
+                <span class="menu--label">Transactions</span>
+            </a>
+        </li>
+
+        <li class="menu--item">
+            <a href="referrals.html" class="menu--link" title="Referrals">
+                <i class="menu--icon  fa fa-fw fa-cog"></i>
+                <span class="menu--label">Referrals</span>
+            </a>
+        </li>
+
+        <li class="menu--item">
+            <a href="#" class="menu--link" title="Testimonies">
+                <i class="menu--icon  fa fa-fw fa-globe"></i>
+                <span class="menu--label">Testimonies</span>
+            </a>
+        </li>
+
+        <li class="menu--item">
+            <a href="#" class="menu--link" title="Support">
+                <i class="menu--icon  fa fa-fw fa-globe"></i>
+                <span class="menu--label">Support</span>
+            </a>
+        </li>
+
+        <li class="menu--item">
+            <a href="../web/index.html" class="menu--link" title="Log out">
+                <i class="menu--icon  fa fa-fw fa-globe"></i>
+                <span class="menu--label">Log Out</span>
+            </a>
+        </li>
+
+    </ul>
+
+    <button id="collapse_menu" class="collapse_menu">
+        <i class="collapse_menu--icon  fa fa-fw"></i>
+        <span class="collapse_menu--label">Collapse Menu</span>
+    </button>
+
+</nav>
+
+
+<div class="wrapper">
+
+    <section>
+        <table class="table table-responsive fa-align-center">
+            <thead class="thead-default">
+            <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+                <th>Date Registered</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>12/11/2016</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td>12/11/2016</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+                <td>12/11/2016</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+
+</div>
+
+<script src="dist/vertical-responsive-menu.min.js"></script>
+
+<!-- MDBootstrap CDN -->
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- SCRIPTS -->
+
+<!-- JQuery -->
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/tether.min.js"></script>
+
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+
+</body>
+</html>

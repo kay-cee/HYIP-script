@@ -1,0 +1,61 @@
+.hold {
+    background: url(../img/happy_people_celebration_wallpaper_hd_2.jpg);
+    background-position: center;
+}
+
+#doushface {
+    border-radius: 100%;
+
+}
+
+.nav-login {
+    float: right;
+}
+
+.img-small {
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.custom {
+    background: #4285F4;
+}
+
+/*.custom-dropdown{
+	background: #4285F4;
+}*/
+
+/*Parallax section*/
+#section-1 {
+    z-index: 1;
+    color: #fff;
+    height: 100vh;
+}
+
+/*Parallax background*/
+#section-1 .parallax-layer-back {
+    background: url("http://mdbootstrap.com/images/regular/nature/img%20(54).jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*Section with dummy content*/
+#section-2 {
+    z-index: 2;
+    position: relative;
+    background: #fff;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+@media screen and (min-width: 500px) {
+    .section-3{
+        height: 50vh;
+        vertical-align: 50%;
+        padding-top: 80px;
+    }
+}
