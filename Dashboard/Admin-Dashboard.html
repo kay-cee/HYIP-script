@@ -1,3 +1,17 @@
+<!-- ===============================================================================================
+     __     __             __           ___        __
+    |  |   /  /           /  \          \  \      /  /
+    |  |  /  /           /    \          \  \    /  /
+    |  | /  /           /  /\  \          \  \  /  /
+    |  |/  /           /  /  \  \          \  \/  /
+    |     <           /  /____\  \          \    /
+    |  |\  \         /  ________  \          |   |
+    |  | \  \       /  /        \  \         |   |
+    |  |  \  \     /  /          \  \        |   |
+    |__|   \__\   /__/            \__\       |___|
+
+=============================================================================================== -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,26 +51,17 @@
     <button type="button" id="toggleMenu" class="toggle_menu">
         <i class="fa fa-bars"></i>
     </button>
-    <a href="dashboard.html"><h1>Money Gang</h1></a>
+    <a href="Admin-Dashboard.html"><h1>Money Gang Admin</h1></a>
 
 </header>
+
 <!--side navbar-->
 <nav class="vertical_nav">
 
     <ul id="js-menu" class="menu">
 
-        <!--<li>-->
-        <!--<div class="logo-wrapper sn-ad-avatar-wrapper rgba-stylish-strong">-->
-        <!--<img src="img/Kc%20campaign2.png" class="img-fluid rounded-circle img-resize">-->
-        <!--<div class="">-->
-        <!--<p class="user white-text">Admin<br> admin@gmail.com-->
-        <!--</p>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--</li>-->
-
         <li class="menu--item">
-            <a href="dashboard.html" class="menu--link menu--link--active" title="Dashboard">
+            <a href="Admin-Dashboard.html" class="menu--link menu--link--active" title="Dashboard">
                 <i class="menu--icon  fa fa-fw fa-briefcase"></i>
                 <span class="menu--label">Dashboard</span>
             </a>
@@ -71,30 +76,30 @@
 
             <ul class="sub_menu">
                 <li class="sub_menu--item">
-                    <a href="profile.html" target="_blank" class="sub_menu--link sub_menu--link__active">Profile
+                    <a href="Admin-profile.html" target="_blank" class="sub_menu--link sub_menu--link__active">Profile
                         Management</a>
                 <li class="sub_menu--item">
-                    <a href="passwordreset.html" class="sub_menu--link" title="Edit Password">Change Password</a>
+                    <a href="PasswordReset.html" class="sub_menu--link" title="Edit Password">Change Password</a>
                 </li>
             </ul>
         </li>
 
         <li class="menu--item">
-            <a href="earnings.html" class="menu--link" title="Earnings">
+            <a href="Admin-PView.html" class="menu--link" title="active-participants">
                 <i class="menu--icon  fa fa-fw fa-briefcase"></i>
                 <span class="menu--label">Active participants</span>
             </a>
         </li>
 
         <li class="menu--item">
-            <a href="earnings.html" class="menu--link" title="Earnings">
+            <a href="Admin-BView.html" class="menu--link" title="blocked-participants">
                 <i class="menu--icon  fa fa-fw fa-briefcase"></i>
                 <span class="menu--label">Blocked participants</span>
             </a>
         </li>
 
         <li class="menu--item">
-            <a href="Admin-MergeView.html" class="menu--link" title="Transactions">
+            <a href="Admin-MergeView.html" class="menu--link" title="active-transactions">
                 <i class="menu--icon  fa fa-fw fa-cog"></i>
                 <span class="menu--label">Active Transactions</span>
             </a>
@@ -130,7 +135,7 @@
     <section>
         <div class=" card card-block">
 
-                <h4><b>Statistics</b></h4>
+            <h4><b>Statistics</b></h4>
 
             <!--select a category-->
             <div class="container-fluid">
@@ -208,52 +213,6 @@
         </div>
         <!--end select a catgory -->
 
-        <!--table of transactions-->
-        <div class="wrapper">
-
-            <section>
-                <h3> current active transactions</h3>
-                <table class="table table-hover table-responsive">
-                    <thead class="thead-default">
-                    <tr>
-                        <th>S/N</th>
-                        <th>Transaction ID</th>
-                        <th>Username</th>
-                        <th>Principal</th>
-                        <th>Currently</th>
-                        <th>Growth Daily</th>
-                        <th>Date</th>
-                        <th>Release Date</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>4073330GH1482072453</td>
-                        <td>10000</td>
-                        <td>15000</td>
-                        <td>50%</td>
-                        <td class="date-created"></td>
-                        <td class="due-date"></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </section>
-
-        </div>
-        <!--/table of transactions-->
     </section>
     <footer class="card-footer">
         <div class="card-block flex-center">

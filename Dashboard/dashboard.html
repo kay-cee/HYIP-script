@@ -78,7 +78,7 @@
                     <a href="profile.html" class="sub_menu--link sub_menu--link__active">Profile
                         Management</a>
                 <li class="sub_menu--item">
-                    <a href="passwordreset.html" class="sub_menu--link" title="Edit Password">Change Password</a>
+                    <a href="PasswordReset.html" class="sub_menu--link" title="Edit Password">Change Password</a>
                 </li>
             </ul>
         </li>
@@ -126,24 +126,19 @@
     <section>
         <div class=" card card-block">
 
-            <p><h3>Notice!!</h3>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum interdum orci in finibus.
-                Cras eu ante condimentum, efficitur libero vitae, rhoncus eros. Curabitur a auctor sem, ac porta metus.
-                Ut volutpat eu neque nec mattis. Nullam viverra sem vitae diam sollicitudin pulvinar. Ut elementum urna
-                non mollis eleifend. Cras maximus rhoncus lacus, vitae pellentesque nunc sodales a. Donec blandit nec
-                odio sit amet porttitor.
+            <p>
+            <h3>Notice!!</h3>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum interdum orci in finibus.
+            Cras eu ante condimentum, efficitur libero vitae, rhoncus eros. Curabitur a auctor sem, ac porta metus.
+            Ut volutpat eu neque nec mattis. Nullam viverra sem vitae diam sollicitudin pulvinar. Ut elementum urna
+            non mollis eleifend. Cras maximus rhoncus lacus, vitae pellentesque nunc sodales a. Donec blandit nec
+            odio sit amet porttitor.
             </p>
         </div>
 
-        <!--&lt;!&ndash; provide help button &ndash;&gt;-->
-        <!--<div class="container-fluid flex-center">-->
-                <!--<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">-->
-                    <!--Provide Help-->
-                <!--</button>-->
-        <!--</div>-->
         <br>
 
-        <h4 class="flex-center"> <b>Select a category</b> </h4>
+        <h4 class="flex-center"><b>Select a category</b></h4>
 
         <div class="container-fluid">
             <!--categories-->
@@ -180,62 +175,6 @@
         </div>
         <!--end select a catgory -->
 
-<!--&lt;!&ndash; Provide help Modal &ndash;&gt;-->
-<!--<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">-->
-    <!--<div class="modal-dialog" role="document">-->
-        <!--&lt;!&ndash;Content&ndash;&gt;-->
-        <!--<div class="modal-content">-->
-            <!--&lt;!&ndash;Header&ndash;&gt;-->
-            <!--<div class="modal-header">-->
-                <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
-                    <!--<span aria-hidden="true">&times;</span>-->
-                <!--</button>-->
-                <!--<h4 class="modal-title w-100" id="myModalLabel">Provide Help</h4>-->
-            <!--</div>-->
-            <!--&lt;!&ndash;Body&ndash;&gt;-->
-            <!--<div class="modal-body">-->
-                <!--<h4>Select a Category</h4>-->
-                <!--<div class="container-fluid card">-->
-                    <!--&lt;!&ndash;categories&ndash;&gt;-->
-                    <!--<div>-->
-                        <!--<div class=" card card-block">-->
-                            <!--Donate N5000 and Get N10,000 in 48hrs-->
-                            <!--<button class="btn btn-primary flex-center">Select</button>-->
-                        <!--</div>-->
-
-                    <!--</div>-->
-                    <!--<div>-->
-                        <!--<div class=" card card-block">-->
-                            <!--Donate N10,000 and Get N20,000 in 24hrs-->
-                            <!--<button class="btn btn-primary flex-center">Select</button>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                    <!--<div>-->
-                        <!--<div class=" card card-block">-->
-                            <!--Donate N50,000 and Get N100,000 in 24hrs-->
-                            <!--<button class="btn btn-primary flex-center">Select</button>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                    <!--<div>-->
-                        <!--<div class=" card card-block">-->
-                            <!--Donate N100,000 and Get N200,000 in 24hrs-->
-                            <!--<button class="btn btn-primary flex-center">Select</button>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                    <!--&lt;!&ndash;end categories&ndash;&gt;-->
-                <!--</div>-->
-            <!---->
-            <!--</div>-->
-            <!--&lt;!&ndash;Footer&ndash;&gt;-->
-            <!--<div class="modal-footer">-->
-                <!--<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>-->
-                <!--<button type="button" class="btn btn-primary">Save changes</button>-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--&lt;!&ndash;/.Content&ndash;&gt;-->
-    <!--</div>-->
-<!--</div>-->
-<!--&lt;!&ndash; /.Live preview&ndash;&gt;-->
         <!--format for matched orders-->
         <div class="row card card-block matching-block">
             <p>You have been matched!</p>
@@ -252,7 +191,27 @@
             <!--transaction buttons-->
             <div class="transaction-buttons">
                 <button class="btn btn-primary">I have made payment</button>
-                <button class="btn btn-primary">I cannot make payment</button>
+                <button class="btn btn-danger">I cannot make payment</button>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <div class="row card card-block matching-block">
+            <p>You have been matched!</p>
+            <div class="matching-person" id="matching-person1">
+                <p>Name: (getName)</p>
+                <p>Phone no: (GetNumber)</p>
+                <p>Amount: (getAmount)</p>
+            </div>
+            <div class="matching-bank" id="matching-bank1">
+                <p>Account name: (getAccoutName)</p>
+                <p>Account No: (getAccountNumber)</p>
+                <p>Bank Name: (getBankName)</p>
+            </div>
+            <!--transaction buttons-->
+            <div class="transaction-buttons">
+                <button class="btn btn-primary">I have made payment</button>
+                <button class="btn btn-danger">I cannot make payment</button>
             </div>
         </div>
     </section>

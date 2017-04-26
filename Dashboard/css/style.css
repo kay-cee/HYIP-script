@@ -31,12 +31,21 @@
 .matching-bank{
     float: none;
 }
+.matching-person1{
+    float: none;
+}
+.matching-bank1{
+    float: none;
+}
 #boxemup{
-    margin-top: 70px;
-    justify-content: center;
+    height: 100vh;
+    z-index: 1000;
 }
 .member-id {
     padding-right: 10px;
+}
+#passwordreset{
+    height: 100vh;
 }
 @media screen and (min-width: 500px){
     .matching-block{
@@ -53,5 +62,9 @@
     }
     .transaction-buttons{
         float: right;
+    }
+    #passwordreset{
+        height:100vh;
+        width: 50%;
     }
 }
