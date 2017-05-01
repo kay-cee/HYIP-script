@@ -16,7 +16,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Mega Cash</title>
+    <title>Megamony</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <!--links to stylesheets-->
@@ -46,8 +46,174 @@
     <button type="button" id="toggleMenu" class="toggle_menu">
         <i class="fa fa-bars"></i>
     </button>
-    <a href="dashboard.html"><h1>Money Gang Admin</h1></a>
+    <a href="dashboard.html"><h1>Blocked Participants</h1></a>
 
 </header>
+<!--side navbar-->
+<nav class="vertical_nav">
+
+    <ul id="js-menu" class="menu">
+
+        <li class="menu--item">
+            <a href="Admin-Dashboard.html" class="menu--link menu--link--active" title="Dashboard">
+                <i class="menu--icon  fa fa-fw fa-briefcase"></i>
+                <span class="menu--label">Dashboard</span>
+            </a>
+        </li>
+
+        <li class="menu--item">
+            <a href="Admin-profile.html" class="menu--link" title="Change Password">
+                <i class="menu--icon  fa fa-fw fa-briefcase"></i>
+                <span class="menu--label">Change Password</span>
+            </a>
+        </li>
+
+        <li class="menu--item">
+            <a href="Admin-PView.html" class="menu--link" title="active-participants">
+                <i class="menu--icon  fa fa-fw fa-briefcase"></i>
+                <span class="menu--label">Active participants</span>
+            </a>
+        </li>
+
+        <li class="menu--item">
+            <a href="Admin-BView.html" class="menu--link" title="blocked-participants">
+                <i class="menu--icon  fa fa-fw fa-briefcase"></i>
+                <span class="menu--label">Blocked participants</span>
+            </a>
+        </li>
+
+        <li class="menu--item">
+            <a href="Admin-MergeView.html" class="menu--link" title="active-transactions">
+                <i class="menu--icon  fa fa-fw fa-cog"></i>
+                <span class="menu--label">Active Transactions</span>
+            </a>
+        </li>
+
+        <li class="menu--item">
+            <a href="Successful-GHERs.html" class="menu--link" title="Successful-GHers">
+                <i class="menu--icon  fa fa-fw fa-cog"></i>
+                <span class="menu--label">Successful GHERs</span>
+            </a>
+        </li>
+
+        <li class="menu--item">
+            <a href="#" class="menu--link" title="Support">
+                <i class="menu--icon  fa fa-fw fa-globe"></i>
+                <span class="menu--label">Support Chat</span>
+            </a>
+        </li>
+
+        <li class="menu--item">
+            <a href="../Landing/login.html" class="menu--link" title="Log out">
+                <i class="menu--icon  fa fa-fw fa-globe"></i>
+                <span class="menu--label">Log Out</span>
+            </a>
+        </li>
+
+    </ul>
+
+    <button id="collapse_menu" class="collapse_menu">
+        <i class="collapse_menu--icon  fa fa-fw"></i>
+        <span class="collapse_menu--label">Collapse Menu</span>
+    </button>
+
+</nav>
+<!--/side navbar-->
+
+<div class="wrapper">
+
+    <!--main area-->
+    <div class="wrapper">
+
+        <section>
+            <!--merging table -->
+            <table class="table table-hover table-responsive">
+                <thead class="thead-default">
+                <tr>
+                    <th>S/N</th>
+                    <th>Username</th>
+                    <th>Package</th>
+                    <th>Fullname</th>
+                    <th>Actions</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>tomisin</td>
+                    <td>beginner</td>
+                    <td>folashade</td>
+                    <td class="btn btn-primary">UNBLOCK</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>intermediate</td>
+                    <td>sammy</td>
+                    <td class="btn btn-primary">UNBLOCK</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>james</td>
+                    <td>professional</td>
+                    <td>olamide</td>
+                    <td class="btn btn-primary">UNBLOCK</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Larry</td>
+                    <td>professional</td>
+                    <td>folashade</td>
+                    <td class="btn btn-primary">UNBLOCK</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>usaini</td>
+                    <td>professional</td>
+                    <td>bolu</td>
+                    <td class="btn btn-primary">UNBLOCK</td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td>feranmi</td>
+                    <td>professional</td>
+                    <td>dan</td>
+                    <td class="btn btn-primary">UNBLOCK</td>
+                </tr>
+                <tr>
+                    <th scope="row">7</th>
+                    <td>joseph</td>
+                    <td>beginner</td>
+                    <td>samuel</td>
+                    <td class="btn btn-primary">UNBLOCK</td>
+                </tr>
+                <tr>
+                    <th scope="row">8</th>
+                    <td>sam</td>
+                    <td>intermediate</td>
+                    <td>balogun</td>
+                    <td class="btn btn-primary">UNBLOCK</td>
+                </tr>
+                <tr>
+                    <th scope="row">9</th>
+                    <td>jane</td>
+                    <td>beginner</td>
+                    <td>folashade</td>
+                    <td class="btn btn-primary">UNBLOCK</td>
+                </tr>
+                </tbody>
+            </table>
+            <!--/merging table-->
+        </section>
+    </div>
+    <!--/main area-->
+    <footer class="card-footer">
+        <div class="card-block flex-center">
+            <p>Copyright: <a href="www.megamony.com">megamony.com</a>2016 | All rights Reserved</p>
+        </div>
+    </footer>
+
+</div>
+
 </body>
 </html>
